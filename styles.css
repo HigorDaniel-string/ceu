@@ -13,8 +13,8 @@ body {
   
   .star {
     position: absolute;
-    width: 2px;
-    height: 2px;
+    width: 5px;
+    height: 5px;
     background-color: #fff;
     border-radius: 50%;
   }
