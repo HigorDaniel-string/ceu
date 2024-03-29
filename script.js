@@ -38,20 +38,3 @@ function addStar() {
 for (let i = 0; i <= 99; i++) {
   addStar();
 }
-
-
-document.getElementById('btn').addEventListener('click', function(event) {
-    createBubble(event.clientX, event.clientY);
-});
-
-function createBubble(x, y) {
-    var bubble = document.createElement('span');
-    bubble.className = 'bubble';
-    bubble.style.left = x - 10 + 'px';
-    bubble.style.top = y - 10 + 'px';
-    document.getElementById('sky').appendChild(bubble);
-
-    setTimeout(function() {
-        bubble.remove();
-    }, 1000);
-}
