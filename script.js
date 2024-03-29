@@ -35,7 +35,7 @@ function addStar() {
 }
 
 // Adicionando algumas estrelas iniciais ao carregar a página
-for (let i = 0; i <= 79; i++) {
+for (let i = 0; i <= 99; i++) {
   addStar();
 }
 
